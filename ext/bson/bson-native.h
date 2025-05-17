@@ -19,7 +19,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #ifdef HAVE_UNISTD_H
-# include <unistd.h>
+#include <unistd.h>
 #endif
 #include <time.h>
 #include "bson-endian.h"
