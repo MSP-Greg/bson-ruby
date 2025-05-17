@@ -21,6 +21,7 @@
 
 #if defined(_WIN32)
 #include <windows.h>
+#define pid_t int
 #endif
 
 #ifdef HAVE_UNISTD_H
